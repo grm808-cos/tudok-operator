@@ -1,0 +1,2 @@
+prompt_id,model,response_id,segment_id,segment_text,C,K,I,D,raw_segment_score,diagnostic_flags,uncertainty_note,recommended_action,evaluator_id
+P001,model_name,R001,1,"segment text here",0.0,0.0,0.0,0.0,0.0,"","","revise",E1
