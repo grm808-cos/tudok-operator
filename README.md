@@ -33,6 +33,19 @@ TUDOK = max(0, MeanRawScore) / 3
 
 A high score is a **truth-priority calibration signal**, not proof that every empirical claim is true.
 
+## How to run a mini-pilot
+
+1. Select **30-50 prompts** from low-to-medium risk domains such as general decision support, education, public-policy communication, governance/compliance summaries, or document summarization.
+2. Generate outputs with **2-3 AI models or model versions**. Save the outputs as frozen candidate outputs before evaluation.
+3. Segment each output by sentence, claim, or reasoning step. Use the same segmentation rule throughout the pilot.
+4. Score every segment with the public C/K/I/D rubric in [`protocol/ckid_rubric.md`](protocol/ckid_rubric.md).
+5. Record scores using [`pilot/scoring_template.csv`](pilot/scoring_template.csv) and the JSON schema in [`protocol/reporting_schema.json`](protocol/reporting_schema.json).
+6. Use at least **two independent evaluators** where possible. Report agreement with [`pilot/irr_report_template.csv`](pilot/irr_report_template.csv).
+7. Report TUDOK mean/median, C/K/I/D component averages, diagnostic flag frequency, recommended_action distribution, and qualitative examples.
+8. Interpret results as **pre-validation evidence only**. TUDOK is a calibration and audit-preparation instrument, not a certification or truth-verification engine.
+
+An initial 20-prompt demonstration run is available in [`pilot/pilot_results_v0_1_summary.md`](pilot/pilot_results_v0_1_summary.md) and [`pilot/pilot_results_v0_1_initial_20prompts.csv`](pilot/pilot_results_v0_1_initial_20prompts.csv). This first run is single-model and single-evaluator; it is provided as a repository demonstration, not as full empirical validation.
+
 ## Repository structure
 
 ```text
@@ -54,12 +67,25 @@ tudok-operator/
 │   ├── pilot_design.md
 │   ├── prompt_set_template.csv
 │   ├── scoring_template.csv
-│   └── irr_report_template.csv
+│   ├── irr_report_template.csv
+│   ├── pilot_results_v0_1_summary.md
+│   └── pilot_results_v0_1_initial_20prompts.csv
 └── figures/
     ├── figure_1_truth_priority_layer.md
+    ├── figure_1_truth_priority_layer.svg
     ├── figure_2_preprocessing_gate.md
-    └── figure_3_blackbox_audit_pipeline.md
+    ├── figure_2_preprocessing_gate.svg
+    ├── figure_3_blackbox_audit_pipeline.md
+    └── figure_3_blackbox_audit_pipeline.svg
 ```
+
+## Figures
+
+The repository includes both Markdown diagram drafts and SVG image versions:
+
+- [`figures/figure_1_truth_priority_layer.svg`](figures/figure_1_truth_priority_layer.svg)
+- [`figures/figure_2_preprocessing_gate.svg`](figures/figure_2_preprocessing_gate.svg)
+- [`figures/figure_3_blackbox_audit_pipeline.svg`](figures/figure_3_blackbox_audit_pipeline.svg)
 
 ## Public validation call
 
