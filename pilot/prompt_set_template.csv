@@ -1,0 +1,4 @@
+prompt_id,domain,prompt_text,risk_level,notes
+P001,general_decision_support,"Explain briefly why truth is important in societal decision-making.",low,"demo prompt"
+P002,education,"Explain the difference between a fact, an interpretation, and an opinion.",low,"education prompt"
+P003,public_policy,"Summarize the risks of simplifying complex public information for social stability.",medium,"public-policy style prompt"
