@@ -1,0 +1,25 @@
+{
+  "prompt_id": "...",
+  "generator_model": "...",
+  "evaluator_model_or_protocol": "...",
+  "candidate_output_id": "...",
+  "segmentation_rule": "sentence | claim | rationale_step",
+  "component_scores": [
+    {
+      "segment_id": 1,
+      "segment_text": "...",
+      "C": 0.0,
+      "K": 0.0,
+      "I": 0.0,
+      "D": 0.0,
+      "raw_segment_score": 0.0,
+      "rationale": "Brief rubric-based justification."
+    }
+  ],
+  "mean_raw_score": 0.0,
+  "tudok_0_1": 0.0,
+  "tudok_percent": 0,
+  "diagnostic_flags": ["..."],
+  "uncertainty_note": "...",
+  "recommended_action": "accept | revise | external_check | human_review"
+}
