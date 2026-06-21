@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc">
+  <title id="title">TUDOK as a truth-priority calibration layer</title>
+  <desc id="desc">A flow diagram showing task input, AI generation, frozen output, TUDOK calibration layer, score and review routing.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#333333" />
+    </marker>
+    <style>
+      .box { fill:#f7f7f7; stroke:#333333; stroke-width:2; rx:14; }
+      .core { fill:#eef5ff; stroke:#1f4e79; stroke-width:2.5; rx:14; }
+      .text { font-family:Arial, sans-serif; font-size:22px; fill:#111111; text-anchor:middle; }
+      .small { font-family:Arial, sans-serif; font-size:18px; fill:#222222; text-anchor:middle; }
+      .label { font-family:Arial, sans-serif; font-size:17px; fill:#333333; text-anchor:middle; }
+      .line { stroke:#333333; stroke-width:2.5; marker-end:url(#arrow); }
+    </style>
+  </defs>
+  <text x="500" y="45" class="text" font-weight="700">Figure 1. TUDOK as a Truth-Priority Calibration Layer</text>
+  <rect x="290" y="75" width="420" height="62" class="box" />
+  <text x="500" y="113" class="text">Task / prompt / document</text>
+  <line x1="500" y1="137" x2="500" y2="175" class="line" />
+  <rect x="260" y="175" width="480" height="70" class="box" />
+  <text x="500" y="205" class="text">AI generation or human-AI</text>
+  <text x="500" y="229" class="small">decision support</text>
+  <line x1="500" y1="245" x2="500" y2="285" class="line" />
+  <rect x="310" y="285" width="380" height="62" class="box" />
+  <text x="500" y="323" class="text">Frozen output</text>
+  <line x1="500" y1="347" x2="500" y2="392" class="line" />
+  <rect x="210" y="392" width="580" height="135" class="core" />
+  <text x="500" y="424" class="text" font-weight="700">TUDOK calibration layer</text>
+  <text x="500" y="459" class="small">C = coherence · K = consistency</text>
+  <text x="500" y="486" class="small">I = truth-alignment · D = distortion pressure</text>
+  <line x1="500" y1="527" x2="500" y2="568" class="line" />
+  <rect x="250" y="568" width="500" height="62" class="box" />
+  <text x="500" y="606" class="text">TUDOK score + flags + action</text>
+  <text x="500" y="655" class="label">revise · external check · human review · accept</text>
+</svg>
