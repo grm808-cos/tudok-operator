@@ -1,14 +1,24 @@
 # TUDOK Operator
 
-**Model-agnostic calibration index for truth-priority in AI-assisted decision-making**
+**Model-agnostic calibration index for truth-fidelity and reality-alignment in AI-assisted decision-making**
 
-This repository hosts the public pre-validation research protocol of the **TUDOK Operator**: a model-agnostic calibration index for evaluating whether AI-assisted outputs preserve **truth-priority** under a documented C/K/I/D rubric.
+This repository hosts the public pre-validation research protocol of the **TUDOK Operator**: a model-agnostic calibration index for evaluating whether AI-assisted outputs preserve **truth-fidelity**, **reality-alignment**, uncertainty handling, and source-aware reasoning under a documented C/K/I/D rubric.
 
 The project is intended for research, education, independent validation, expert review, and pilot studies. It is **not** a truth-verification engine, certification tool, compliance guarantee, or replacement for human/domain-expert judgment.
 
+## Current Hungarian paper
+
+The current Hungarian public paper is identified as:
+
+**A TUDOK-operátor – Modelltől független kalibrációs mutató a mesterségesintelligencia-kimenetek igazsághűségének és valóságilleszkedésének értékelésére döntéstámogatási környezetben**
+
+DOI: `10.5281/zenodo.20836156`
+
+> Note: the PDF should be uploaded to `docs/` once the final publication file has passed text-cleanup review.
+
 ## Core idea
 
-Modern AI systems can produce outputs that are coherent, fluent, helpful, and persuasive while still subordinating truth to narrative stability, reassurance, over-simplification, user satisfaction, or persuasion. TUDOK does not ask only whether an output sounds good. It asks whether truth remains the primary organizing principle of the output.
+Modern AI systems can produce outputs that are coherent, fluent, helpful, and persuasive while still subordinating truth, uncertainty, source status, and reality-alignment to narrative stability, reassurance, over-simplification, user satisfaction, or persuasion. TUDOK does not ask only whether an output sounds good. It asks whether the output remains faithful to facts, uncertainty, sources, and the verifiable boundaries of reality.
 
 ## TUDOK in one formula
 
@@ -16,7 +26,7 @@ For each meaning-bearing segment `x_i`, four component scores are assigned in `[
 
 - `C` = semantic coherence
 - `K` = internal consistency
-- `I` = contextual truth-alignment
+- `I` = contextual truth- and reality-alignment
 - `D` = distortion or truth-subordinating pressure
 
 Raw segment score:
@@ -31,7 +41,7 @@ Normalized TUDOK score:
 TUDOK = max(0, MeanRawScore) / 3
 ```
 
-A high score is a **truth-priority calibration signal**, not proof that every empirical claim is true.
+A high score is a **truth-fidelity and reality-alignment calibration signal**, not proof that every empirical claim is true.
 
 ## How to run a mini-pilot
 
@@ -46,6 +56,14 @@ A high score is a **truth-priority calibration signal**, not proof that every em
 
 An initial 20-prompt demonstration run is available in [`pilot/pilot_results_v0_1_summary.md`](pilot/pilot_results_v0_1_summary.md) and [`pilot/pilot_results_v0_1_initial_20prompts.csv`](pilot/pilot_results_v0_1_initial_20prompts.csv). This first run is single-model and single-evaluator; it is provided as a repository demonstration, not as full empirical validation.
 
+## Hungarian example set
+
+A Hungarian demonstration example set is available here:
+
+- [`examples/tudok_hu_30_examples_v0_1.md`](examples/tudok_hu_30_examples_v0_1.md)
+
+These examples are educational and pilot-preparatory. They are not empirical validation results.
+
 ## Repository structure
 
 ```text
@@ -57,6 +75,8 @@ tudok-operator/
 │   ├── TUDOK_operator_v0_4_HU.md
 │   ├── appendices_v0_4_HU.md
 │   └── validation_call_HU.md
+├── examples/
+│   └── tudok_hu_30_examples_v0_1.md
 ├── protocol/
 │   ├── ckid_rubric.md
 │   ├── evaluator_prompt_HU.md
@@ -89,7 +109,7 @@ The repository includes both Markdown diagram drafts and SVG image versions:
 
 ## Public validation call
 
-The public C/K/I/D rubric, fixed evaluator prompt, reporting schema, and pilot templates may be used for research, education, and independent validation with proper attribution. Feedback from researchers, auditors, AI-governance practitioners, and institutions is welcome.
+The public C/K/I/D rubric, fixed evaluator prompt, reporting schema, pilot templates, and Hungarian example set may be used for research, education, and independent validation with proper attribution. Feedback from researchers, auditors, AI-governance practitioners, and institutions is welcome.
 
 ## Important boundary
 
@@ -102,7 +122,7 @@ TUDOK is not:
 - a replacement for domain-expert or human review;
 - a guarantee of factual correctness.
 
-TUDOK is a calibration and audit-preparation instrument for making the truth-priority behavior of AI-assisted outputs more visible, comparable, and reviewable.
+TUDOK is a calibration and audit-preparation instrument for making the truth-fidelity and reality-alignment behavior of AI-assisted outputs more visible, comparable, and reviewable.
 
 ## License and use
 
