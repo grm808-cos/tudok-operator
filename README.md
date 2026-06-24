@@ -56,11 +56,12 @@ A high score is a **truth-fidelity and reality-alignment calibration signal**, n
 
 An initial 20-prompt demonstration run is available in [`pilot/pilot_results_v0_1_summary.md`](pilot/pilot_results_v0_1_summary.md) and [`pilot/pilot_results_v0_1_initial_20prompts.csv`](pilot/pilot_results_v0_1_initial_20prompts.csv). This first run is single-model and single-evaluator; it is provided as a repository demonstration, not as full empirical validation.
 
-## Hungarian example set
+## Example sets
 
-A Hungarian demonstration example set is available here:
+Demonstration example sets are available here:
 
-- [`examples/tudok_hu_30_examples_v0_1.md`](examples/tudok_hu_30_examples_v0_1.md)
+- [`examples/tudok_hu_30_examples_v0_1.md`](examples/tudok_hu_30_examples_v0_1.md) – 30 Hungarian examples
+- [`examples/tudok_en_30_examples_v0_1.md`](examples/tudok_en_30_examples_v0_1.md) – 30 English examples
 
 These examples are educational and pilot-preparatory. They are not empirical validation results.
 
@@ -76,7 +77,8 @@ tudok-operator/
 │   ├── appendices_v0_4_HU.md
 │   └── validation_call_HU.md
 ├── examples/
-│   └── tudok_hu_30_examples_v0_1.md
+│   ├── tudok_hu_30_examples_v0_1.md
+│   └── tudok_en_30_examples_v0_1.md
 ├── protocol/
 │   ├── ckid_rubric.md
 │   ├── evaluator_prompt_HU.md
@@ -109,7 +111,7 @@ The repository includes both Markdown diagram drafts and SVG image versions:
 
 ## Public validation call
 
-The public C/K/I/D rubric, fixed evaluator prompt, reporting schema, pilot templates, and Hungarian example set may be used for research, education, and independent validation with proper attribution. Feedback from researchers, auditors, AI-governance practitioners, and institutions is welcome.
+The public C/K/I/D rubric, fixed evaluator prompt, reporting schema, pilot templates, and example sets may be used for research, education, and independent validation with proper attribution. Feedback from researchers, auditors, AI-governance practitioners, and institutions is welcome.
 
 ## Important boundary
 
