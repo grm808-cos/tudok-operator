@@ -6,15 +6,19 @@ This repository hosts the public pre-validation research protocol of the **TUDOK
 
 The project is intended for research, education, independent validation, expert review, and pilot studies. It is **not** a truth-verification engine, certification tool, compliance guarantee, or replacement for human/domain-expert judgment.
 
-## Current Hungarian paper
+## Current public papers
 
 The current Hungarian public paper is identified as:
 
 **A TUDOK-operátor – Modelltől független kalibrációs mutató a mesterségesintelligencia-kimenetek igazsághűségének és valóságilleszkedésének értékelésére döntéstámogatási környezetben**
 
+The current English public paper is identified as:
+
+**The TUDOK Operator – A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts**
+
 DOI: `10.5281/zenodo.20836156`
 
-> Note: the PDF should be uploaded to `docs/` once the final publication file has passed text-cleanup review.
+> Note: final PDF/DOCX publication files may be uploaded to `docs/` after text-cleanup and release review. The repository currently contains public Markdown protocol materials and pilot templates.
 
 ## Core idea
 
@@ -56,6 +60,15 @@ A high score is a **truth-fidelity and reality-alignment calibration signal**, n
 
 An initial 20-prompt demonstration run is available in [`pilot/pilot_results_v0_1_summary.md`](pilot/pilot_results_v0_1_summary.md) and [`pilot/pilot_results_v0_1_initial_20prompts.csv`](pilot/pilot_results_v0_1_initial_20prompts.csv). This first run is single-model and single-evaluator; it is provided as a repository demonstration, not as full empirical validation.
 
+## Public documents
+
+- [`docs/TUDOK_operator_v0_4_HU.md`](docs/TUDOK_operator_v0_4_HU.md) – Hungarian public pre-validation draft
+- [`docs/TUDOK_operator_v0_4_EN.md`](docs/TUDOK_operator_v0_4_EN.md) – English public pre-validation draft
+- [`docs/appendices_v0_4_HU.md`](docs/appendices_v0_4_HU.md) – Hungarian appendix package index
+- [`docs/appendices_v0_4_EN.md`](docs/appendices_v0_4_EN.md) – English appendix package index
+- [`docs/validation_call_HU.md`](docs/validation_call_HU.md) – Hungarian open validation call
+- [`docs/validation_call_EN.md`](docs/validation_call_EN.md) – English open validation call
+
 ## Example sets
 
 Demonstration example sets are available here:
@@ -74,8 +87,11 @@ tudok-operator/
 ├── LICENSE.md
 ├── docs/
 │   ├── TUDOK_operator_v0_4_HU.md
+│   ├── TUDOK_operator_v0_4_EN.md
 │   ├── appendices_v0_4_HU.md
-│   └── validation_call_HU.md
+│   ├── appendices_v0_4_EN.md
+│   ├── validation_call_HU.md
+│   └── validation_call_EN.md
 ├── examples/
 │   ├── tudok_hu_30_examples_v0_1.md
 │   └── tudok_en_30_examples_v0_1.md
