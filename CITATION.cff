@@ -18,7 +18,9 @@ keywords:
   - model-agnostic evaluation
   - calibration
   - closed-model audit
-license: "CC-BY-4.0"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
 preferred-citation:
   type: article
   title: "The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts"
