@@ -1,39 +1,66 @@
-# License and Use Notice
+# Licensing Overview
 
-## Public research protocol license
+The TUDOK Operator public repository uses a clear dual-license model.
 
-The public TUDOK Operator research protocol in this repository is made available under a **CC BY 4.0 / research protocol only** model.
+## Documentation and public research protocol
 
-This means that the public materials may be used, copied, shared, adapted, and tested for research, education, expert review, and independent validation, provided that appropriate attribution is given to the author and this repository.
+The following materials are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, unless a file states otherwise:
 
-Creative Commons Attribution 4.0 International (CC BY 4.0):
-https://creativecommons.org/licenses/by/4.0/
+- research protocol documents;
+- C/K/I/D rubrics;
+- evaluator prompts;
+- reporting schemas;
+- diagnostic-flag dictionaries;
+- examples and pilot templates;
+- diagrams and explanatory figures;
+- other non-software documentation.
 
-## Attribution
+See [`LICENSE-DOCUMENTATION`](LICENSE-DOCUMENTATION).
 
-Recommended attribution:
+CC BY 4.0 permits sharing, adaptation, and commercial use, provided that appropriate attribution is given, the source and license are identified, and modifications are indicated. Attribution must not imply endorsement, certification, partnership, or institutional approval.
 
-> Sipos, L. (2026). TUDOK Operator: A model-agnostic calibration index for truth-priority in AI-assisted decision-making. Public pre-validation research protocol. GitHub repository: grm808-cos/tudok-operator.
+## Software components
 
-## Important boundary
+Software source code, scripts, executable tools, and software implementation components added to this repository are licensed under the **Apache License 2.0**, unless a file states otherwise.
 
-The public protocol does **not** grant certification, official audit status, compliance approval, or any claim that a system is factually correct, safe, lawful, ethical, or institutionally approved.
+See [`LICENSE-CODE`](LICENSE-CODE).
 
-TUDOK remains a calibration and audit-preparation instrument. It should be used together with external fact-checking, domain-expert review, human oversight, and context-specific validation.
+## Recommended attribution
 
-## Separate implementation and licensing layer
+> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.21320434. GitHub: https://github.com/grm808-cos/tudok-operator
 
-The following are not automatically included in the public protocol license and may require separate permission, implementation agreement, or commercial license:
+Related conceptual paper:
 
-- industrial-scale scoring pipelines;
-- automated dashboard integration;
-- API or SaaS implementation;
-- high-volume institutional audit workflows;
-- domain-specific weighting packages;
-- managed validation services;
-- certification-like or compliance-facing use;
-- proprietary benchmark sets or non-public implementation details.
+> Sípos, Lóránt. *TUDOK Operator: A Model-Agnostic Calibration Index for the Primacy of Truth in AI-Assisted Decision-Making.* 2026. DOI: 10.5281/zenodo.20382213.
+
+Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff). Additional attribution and scope information is provided in [`NOTICE`](NOTICE).
+
+## Commercial and institutional use
+
+The public materials may be used in commercial and institutional environments under their applicable open-source or open-content licenses. No additional restriction is imposed on uses already permitted by CC BY 4.0 or Apache License 2.0.
+
+Separate agreements may still apply to services or materials that are not included in the public repository, including:
+
+- managed implementation and integration services;
+- hosted dashboards, APIs, or SaaS products not published here;
+- proprietary benchmark sets and non-public implementation layers;
+- training, support, customization, and high-volume managed audit services;
+- certification-like services or official assessment programs.
+
+A separate agreement for such services does not limit the rights granted for materials already published under CC BY 4.0 or Apache License 2.0.
+
+## Important boundaries
+
+Use of the public TUDOK materials does not grant or imply:
+
+- certification or official audit status;
+- proof that an output or system is factually correct;
+- legal, regulatory, ethical, or safety compliance;
+- endorsement by Lóránt Sípos, GRM808-TRUST, or any referenced institution;
+- authorization to represent a modified implementation as an official TUDOK assessment service.
+
+TUDOK is a calibration and audit-preparation methodology. It must be used together with external verification, domain expertise, human oversight, and context-specific validation.
 
 ## No warranty
 
-The protocol is provided as a pre-validation research method. It is provided without warranty and must not be used as the sole basis for high-stakes decisions.
+The public materials are provided on an “as is” basis, without warranties or guarantees. They must not be used as the sole basis for high-stakes decisions.
