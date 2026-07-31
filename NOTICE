@@ -1,0 +1,19 @@
+TUDOK Operator
+Copyright 2025-2026 Lóránt Sípos
+
+Repository: https://github.com/grm808-cos/tudok-operator
+ORCID: https://orcid.org/0009-0008-1987-2139
+
+Primary public methodological paper:
+Sípos, Lóránt. The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts. 2026. DOI: 10.5281/zenodo.21320434.
+
+Related conceptual paper:
+Sípos, Lóránt. TUDOK Operator: A Model-Agnostic Calibration Index for the Primacy of Truth in AI-Assisted Decision-Making. 2026. DOI: 10.5281/zenodo.20382213.
+
+Licensing:
+- Software source code and executable software components: Apache License 2.0. See LICENSE-CODE.
+- Documentation, public research protocol, rubrics, prompts, schemas, examples, diagrams, and templates: Creative Commons Attribution 4.0 International. See LICENSE-DOCUMENTATION.
+
+Attribution does not imply endorsement, certification, partnership, official audit status, legal compliance, or approval by Lóránt Sípos, GRM808-TRUST, or any institution referenced in repository materials.
+
+TUDOK is a calibration and audit-preparation methodology. It is not a truth-verification engine, moral authority, compliance certification, or substitute for external verification, domain expertise, and human responsibility.
