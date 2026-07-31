@@ -1,19 +1,31 @@
 cff-version: 1.2.0
-title: "TUDOK Operator: A Model-Agnostic Calibration Index for Truth-Priority in AI-Assisted Decision-Making"
-message: "If you use the TUDOK Operator public protocol, please cite this repository and the associated preprint/manuscript."
+title: "TUDOK Operator Public Validation Repository"
+message: "If you use the TUDOK Operator public protocol, please cite the primary methodological paper and this repository."
 type: software
 authors:
-  - family-names: "Sipos"
-    given-names: "Lorant"
+  - family-names: "Sípos"
+    given-names: "Lóránt"
     orcid: "https://orcid.org/0009-0008-1987-2139"
 year: 2026
 repository-code: "https://github.com/grm808-cos/tudok-operator"
-abstract: "Public pre-validation research protocol for the TUDOK Operator, a model-agnostic calibration index for truth-priority in AI-assisted decision-making."
+url: "https://github.com/grm808-cos/tudok-operator"
+abstract: "Public pre-validation and open-evaluation repository for the TUDOK Operator, a model-agnostic calibration methodology for assessing truth-fidelity and reality-alignment in AI outputs used in decision-support contexts."
 keywords:
   - AI governance
   - AI audit
-  - truth-priority
+  - truth-fidelity
+  - reality-alignment
   - model-agnostic evaluation
   - calibration
-  - black-box audit
+  - closed-model audit
 license: "CC-BY-4.0"
+preferred-citation:
+  type: article
+  title: "The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts"
+  authors:
+    - family-names: "Sípos"
+      given-names: "Lóránt"
+      orcid: "https://orcid.org/0009-0008-1987-2139"
+  year: 2026
+  doi: "10.5281/zenodo.21320434"
+  url: "https://doi.org/10.5281/zenodo.21320434"
