@@ -1,24 +1,28 @@
 # TUDOK Operator
 
-**Model-agnostic calibration index for truth-fidelity and reality-alignment in AI-assisted decision-making**
+**Model-agnostic calibration methodology for truth-fidelity and reality-alignment in AI-assisted decision-making**
 
-This repository hosts the public pre-validation research protocol of the **TUDOK Operator**: a model-agnostic calibration index for evaluating whether AI-assisted outputs preserve **truth-fidelity**, **reality-alignment**, uncertainty handling, and source-aware reasoning under a documented C/K/I/D rubric.
+This repository hosts the public pre-validation and open-evaluation materials of the **TUDOK Operator**: a model-agnostic calibration methodology for evaluating whether AI-assisted outputs preserve **truth-fidelity**, **reality-alignment**, uncertainty handling, and source-aware reasoning under a documented C/K/I/D rubric.
 
-The project is intended for research, education, independent validation, expert review, and pilot studies. It is **not** a truth-verification engine, certification tool, compliance guarantee, or replacement for human/domain-expert judgment.
+The project is intended for research, education, independent validation, expert review, pilot studies, and transparent institutional testing. It is **not** a truth-verification engine, certification tool, compliance guarantee, or replacement for human or domain-expert judgment.
 
 ## Current public papers
 
-The current Hungarian public paper is identified as:
+### Primary methodological paper
 
-**A TUDOK-operátor – Modelltől független kalibrációs mutató a mesterségesintelligencia-kimenetek igazsághűségének és valóságilleszkedésének értékelésére döntéstámogatási környezetben**
+**The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts**
 
-The current English public paper is identified as:
+DOI: [`10.5281/zenodo.21320434`](https://doi.org/10.5281/zenodo.21320434)
 
-**The TUDOK Operator – A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts**
+### Related conceptual paper
 
-DOI: `10.5281/zenodo.20836156`
+**TUDOK Operator: A Model-Agnostic Calibration Index for the Primacy of Truth in AI-Assisted Decision-Making**
 
-> Note: final PDF/DOCX publication files may be uploaded to `docs/` after text-cleanup and release review. The repository currently contains public Markdown protocol materials and pilot templates.
+DOI: [`10.5281/zenodo.20382213`](https://doi.org/10.5281/zenodo.20382213)
+
+The primary methodological paper provides the operational, pilot-ready framework. The related conceptual paper presents the broader truth-priority and meta-level foundation.
+
+> Note: final publication files may be uploaded to `docs/` after release review. The repository currently contains public Markdown protocol materials, schemas, examples, and pilot templates.
 
 ## Core idea
 
@@ -85,6 +89,9 @@ tudok-operator/
 ├── README.md
 ├── CITATION.cff
 ├── LICENSE.md
+├── LICENSE-CODE
+├── LICENSE-DOCUMENTATION
+├── NOTICE
 ├── docs/
 │   ├── TUDOK_operator_v0_4_HU.md
 │   ├── TUDOK_operator_v0_4_EN.md
@@ -127,7 +134,7 @@ The repository includes both Markdown diagram drafts and SVG image versions:
 
 ## Public validation call
 
-The public C/K/I/D rubric, fixed evaluator prompt, reporting schema, pilot templates, and example sets may be used for research, education, and independent validation with proper attribution. Feedback from researchers, auditors, AI-governance practitioners, and institutions is welcome.
+The public C/K/I/D rubric, fixed evaluator prompts, reporting schema, pilot templates, and example sets may be used, reproduced, challenged, and adapted with proper attribution under the applicable repository licenses. Feedback from researchers, auditors, AI-governance practitioners, developers, and institutions is welcome.
 
 ## Important boundary
 
@@ -144,10 +151,21 @@ TUDOK is a calibration and audit-preparation instrument for making the truth-fid
 
 ## License and use
 
-The public research protocol is made available under a **CC BY 4.0 / research protocol only** model. See [`LICENSE.md`](LICENSE.md).
+This repository uses a **dual-license model**:
 
-Industrial-scale automation, dashboard integration, API use, domain-specific weighting packages, large-volume audit services, and institutional implementation layers may require a separate implementation and licensing agreement.
+- software source code, scripts, executable tools, and software implementation components: **Apache License 2.0** — see [`LICENSE-CODE`](LICENSE-CODE);
+- documentation, public research protocol, rubrics, prompts, schemas, examples, diagrams, and templates: **Creative Commons Attribution 4.0 International (CC BY 4.0)** — see [`LICENSE-DOCUMENTATION`](LICENSE-DOCUMENTATION).
+
+A consolidated explanation is available in [`LICENSE.md`](LICENSE.md), and attribution notices are provided in [`NOTICE`](NOTICE).
+
+The public materials may be used in research, education, independent evaluation, institutional testing, implementation, and commercial environments under their applicable licenses. Proper attribution is required. Attribution does not imply endorsement, certification, partnership, or institutional approval.
+
+Separate agreements may apply only to services or materials not published in this repository, such as managed integration, hosted systems, proprietary benchmarks, support, customization, training, or official assessment services. Such agreements do not restrict rights already granted for publicly licensed materials.
 
 ## Citation
 
-Please cite this repository and the associated TUDOK Operator preprint when using the protocol. See [`CITATION.cff`](CITATION.cff).
+Please cite the primary methodological paper and this repository when using the public protocol. Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
+
+Recommended citation:
+
+> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.21320434. GitHub: https://github.com/grm808-cos/tudok-operator
