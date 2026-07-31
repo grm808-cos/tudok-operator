@@ -1,0 +1,27 @@
+Creative Commons Attribution 4.0 International
+
+The documentation, public research protocol, rubrics, prompts, schemas, examples, diagrams, templates, and other non-software materials in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), unless a file states otherwise.
+
+You are free to:
+- share — copy and redistribute the material in any medium or format;
+- adapt — remix, transform, and build upon the material for any purpose, including commercial use.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, identify the original source and publication, and indicate whether changes were made. Attribution must not suggest endorsement by the author, GRM808-TRUST, or any affiliated institution.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+Recommended attribution:
+
+Sípos, Lóránt. The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts. 2026. DOI: 10.5281/zenodo.21320434. GitHub: https://github.com/grm808-cos/tudok-operator
+
+Related conceptual paper:
+
+Sípos, Lóránt. TUDOK Operator: A Model-Agnostic Calibration Index for the Primacy of Truth in AI-Assisted Decision-Making. 2026. DOI: 10.5281/zenodo.20382213.
+
+Important boundaries:
+- This license does not grant certification, official audit status, compliance approval, or institutional endorsement.
+- Use of the TUDOK name is permitted for accurate descriptive reference to the methodology and source. It must not be used to imply official certification, authorization, partnership, or approval.
+- TUDOK is a calibration and audit-preparation methodology, not a truth-verification engine, moral authority, legal opinion, or replacement for external fact-checking, domain expertise, or human responsibility.
+
+Full legal text:
+https://creativecommons.org/licenses/by/4.0/legalcode
