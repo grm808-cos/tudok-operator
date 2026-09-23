@@ -1,3 +1,5 @@
+> **Legacy provenance notice:** Történeti v0.4 mellékleti index. Az aktuális v2.0 csomagtérkép a `docs/appendices_v2_0_HU.md` fájlban található.
+
 # TUDOK Operator v0.4 - Mellekleti csomag
 
 Ez a dokumentum a public pre-validation TUDOK-protokoll mellekleti csomagjanak indexe. A reszletes fajlok a `protocol/`, `pilot/` es `figures/` mappakban talalhatok.
