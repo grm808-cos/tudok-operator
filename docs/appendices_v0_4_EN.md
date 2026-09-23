@@ -1,3 +1,5 @@
+> **Legacy provenance notice:** Historical v0.4 appendix index. The current v2.0 package map is maintained in `docs/appendices_v2_0_EN.md`.
+
 # TUDOK Operator v0.4 - Appendix Package
 
 This document is the index of the appendix package for the public pre-validation TUDOK protocol. The detailed files are located in the `protocol/`, `pilot/`, and `figures/` directories.
