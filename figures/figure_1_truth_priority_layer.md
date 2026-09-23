@@ -1,21 +1,29 @@
-# Figure 1 - TUDOK as a Truth-Priority Calibration Layer
+# Figure 1 - TUDOK as a Truth-Fidelity and Reality-Alignment Calibration Layer
+
+**Publication caption:** Figure 1. TUDOK as an output-level truth-fidelity and reality-alignment calibration layer.
+
+This companion diagram represents TUDOK as an independent evaluation layer applied to a frozen AI output before human or institutional reliance.
 
 ```text
-Task / prompt / document
+Data / context / task
         ↓
-AI generation or human-AI decision support
+AI processing and representation
         ↓
-Frozen output
+Generated output
         ↓
-TUDOK calibration layer
-C = coherence
-K = consistency
-I = truth-alignment
-D = distortion pressure
+TUDOK evaluation layer
+- C: semantic coherence
+- K: internal consistency
+- I: contextual truth- and reality-alignment
+- D: distortion pressure
+- diagnostic flags
         ↓
-TUDOK score + flags + recommended_action
+Review routing
+accept / revise / external_check / human_review
         ↓
-revise / external check / human review / accept
+Human or institutional use
 ```
 
-TUDOK does not generate the answer. It evaluates the frozen output and produces a truth-priority calibration signal.
+The evaluator layer does not generate the answer. It examines the already generated output and produces a calibration, diagnostic, and review-routing signal.
+
+This is an architectural interpretation, not a claim that every AI system is physically structured this way.
