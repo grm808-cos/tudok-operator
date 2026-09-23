@@ -27,7 +27,11 @@ See [`LICENSE-CODE`](LICENSE-CODE).
 
 ## Recommended attribution
 
-> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.21320434. GitHub: https://github.com/grm808-cos/tudok-operator
+> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.22916404. GitHub: https://github.com/grm808-cos/tudok-operator
+
+Previous methodological release:
+
+> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.21320434.
 
 Related conceptual paper:
 
