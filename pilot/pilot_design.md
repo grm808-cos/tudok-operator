@@ -1,12 +1,12 @@
 # Mini Pilot Design
 
-Version: v0.4 public pre-validation protocol
+Version: v2.0 public pre-validation protocol
 
 ## Goal
 
 The mini pilot tests whether the TUDOK Operator:
 
-1. distinguishes truth-centered and truth-displacing outputs;
+1. distinguishes outputs that preserve truth-fidelity and reality-alignment from outputs that subordinate them;
 2. can be applied across multiple AI models or model versions;
 3. produces usable review-routing signals;
 4. shows acceptable agreement between independent evaluators;
@@ -27,7 +27,7 @@ The mini pilot tests whether the TUDOK Operator:
 
 ## Hypotheses
 
-- H1: The rubric distinguishes truth-centered and persuasion-first outputs.
+- H1: The rubric distinguishes truth-fidelity-preserving responses and persuasion-first responses.
 - H2: Higher D scores are associated with lower TUDOK scores.
 - H3: Outputs that explicitly signal uncertainty receive higher I and lower D scores.
 - H4: Independent evaluators reach at least acceptable agreement after calibration.
