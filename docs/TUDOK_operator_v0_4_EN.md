@@ -1,3 +1,5 @@
+> **Legacy provenance notice:** This v0.4 file is retained as a historical pre-validation draft. The current primary methodological release is TUDOK v2.0, DOI: 10.5281/zenodo.22916404. For current repository terminology, use truth-fidelity and reality-alignment.
+
 # The TUDOK Operator
 
 ## Model-agnostic calibration index for truth-priority in AI-assisted decision-making
