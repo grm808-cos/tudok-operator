@@ -1,3 +1,5 @@
+> **Legacy provenance notice:** Ez a v0.4 fájl történeti pre-validation változatként marad meg. A jelenlegi elsődleges metodológiai kiadás a TUDOK v2.0, DOI: 10.5281/zenodo.22916404. Az aktuális repository-terminológiában a truth-fidelity és reality-alignment fogalmak az irányadók.
+
 # A TUDOK-operator
 
 ## Model-agnosztikus kalibracios index az igazsag elsobbsegehez AI-tamogatott donteshozatalban
