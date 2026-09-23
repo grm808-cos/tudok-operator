@@ -1,10 +1,12 @@
 # Nyilt felhivas fuggetlen validaciora
 
-A TUDOK Operator jelen repository-ban kozzetett C/K/I/D rubrikaja, alap protokollja, evaluator promptja es reporting semaja nyilvanosan kiprobalhato kutatasi, oktatasi es fuggetlen validacios celokra, megfelelo hivatkozas mellett.
+**Aktualis elsodleges metodologiai kiadas:** DOI 10.5281/zenodo.22916404
+
+A TUDOK Operator jelen repository-ban kozzetett v2.0 C/K/I/D rubrikaja, alap protokollja, evaluator promptja es reporting semaja nyilvanosan kiprobalhato kutatasi, oktatasi es fuggetlen validacios celokra, megfelelo hivatkozas mellett.
 
 ## Cel
 
-A cel az, hogy a truth-priority auditalasa ne maradjon zart, ellenorizhetetlen vagy csak magas koltsegu szolgaltatasok privilegiuma. Kutatocsoportokat, auditorokat, AI-governance szakertoket es intezmenyeket hivunk arra, hogy a protokollt sajat AI-kimeneteiken teszteljek.
+A cel az, hogy a truth-fidelity és reality-alignment auditalasa ne maradjon zart, ellenorizhetetlen vagy csak magas koltsegu szolgaltatasok privilegiuma. Kutatocsoportokat, auditorokat, AI-governance szakertoket es intezmenyeket hivunk arra, hogy a protokollt sajat AI-kimeneteiken teszteljek.
 
 ## Mit erdemes tesztelni?
 
