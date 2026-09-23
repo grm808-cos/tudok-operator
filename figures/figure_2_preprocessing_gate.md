@@ -1,23 +1,29 @@
-# Figure 2 - TUDOK as a Truth-Priority Pre-Processing Gate
+# Figure 2 - TUDOK as a Preliminary Truth-Fidelity and Reality-Alignment Gate
+
+**Publication caption:** Figure 2. TUDOK as a preliminary truth-fidelity, source-awareness, and reality-alignment gate.
+
+This companion diagram represents a workflow-level integration in which selected truth-fidelity checks occur before the system treats an output as ready for use.
 
 ```text
-User input / document / question
+Input components
+data sources / preprocessing / basic validation
         ↓
-Truth-priority pre-processing gate
-claim detection
-source status
-certainty level
-domain risk
-normative sensitivity
+Preliminary TUDOK gate
+- truth-fidelity and reality-alignment
+- source and context awareness
+- coherence pre-screening
+- uncertainty / distortion indicators
+- review need
         ↓
-Gate decision
-continue / ask clarification / request source / human review
+AI representation / context / memory / generation
         ↓
-AI processing
+Verification and review-routing gate
         ↓
 Output
         ↓
-TUDOK output-level calibration
+accept / revise / external_check / human_review
 ```
 
-The pre-processing gate is not a new neural layer. It is a truth-priority input-status layer for identifying claims, assumptions, uncertainty, source gaps, and review needs before generation.
+TUDOK is not a binary permission/prohibition mechanism and not an automated authority over truth. The preliminary gate is a calibration and review-routing component.
+
+This is an architectural interpretation, not a claim that every AI system is physically structured this way.
