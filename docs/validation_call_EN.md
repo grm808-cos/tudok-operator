@@ -1,10 +1,12 @@
 # Open Call for Independent Validation
 
-The C/K/I/D rubric, baseline protocol, evaluator prompt, and reporting schema of the TUDOK Operator published in this repository may be publicly tested for research, educational, and independent validation purposes, with appropriate citation.
+**Current primary methodological release:** DOI 10.5281/zenodo.22916404
+
+The v2.0 C/K/I/D rubric, baseline protocol, evaluator prompt, and reporting schema of the TUDOK Operator published in this repository may be publicly tested for research, educational, and independent validation purposes, with appropriate citation.
 
 ## Purpose
 
-The purpose is to ensure that auditing truth-priority does not remain closed, unverifiable, or the privilege of only high-cost services. Research groups, auditors, AI-governance experts, and institutions are invited to test the protocol on their own AI outputs.
+The purpose is to ensure that auditing truth-fidelity and reality-alignment does not remain closed, unverifiable, or the privilege of only high-cost services. Research groups, auditors, AI-governance experts, and institutions are invited to test the protocol on their own AI outputs.
 
 ## What Should Be Tested?
 
