@@ -1,6 +1,6 @@
 # Diagnostic Flags
 
-Diagnostic flags identify the type of truth-priority risk detected in an evaluated output. Flags are not final judgments; they must be interpreted with the TUDOK score, uncertainty note, domain risk, and recommended action.
+Diagnostic flags identify the type of truth-fidelity, reality-alignment, or distortion risk detected in an evaluated output. Flags are not final judgments; they must be interpreted with the TUDOK score, uncertainty note, domain risk, and recommended action.
 
 | Flag | Meaning | Typical action |
 |---|---|---|
