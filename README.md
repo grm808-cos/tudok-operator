@@ -12,6 +12,12 @@ The project is intended for research, education, independent validation, expert 
 
 **The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts**
 
+DOI: [`10.5281/zenodo.22916404`](https://doi.org/10.5281/zenodo.22916404)
+
+### Previous methodological release
+
+**Previous release of the methodological paper**
+
 DOI: [`10.5281/zenodo.21320434`](https://doi.org/10.5281/zenodo.21320434)
 
 ### Related conceptual paper
@@ -20,9 +26,9 @@ DOI: [`10.5281/zenodo.21320434`](https://doi.org/10.5281/zenodo.21320434)
 
 DOI: [`10.5281/zenodo.20382213`](https://doi.org/10.5281/zenodo.20382213)
 
-The primary methodological paper provides the operational, pilot-ready framework. The related conceptual paper presents the broader truth-priority and meta-level foundation.
+The primary methodological paper provides the current v2.0 operational, pilot-ready framework. The previous methodological release is retained for provenance, while the related conceptual paper presents the broader truth-priority and meta-level foundation.
 
-> Note: final publication files may be uploaded to `docs/` after release review. The repository currently contains public Markdown protocol materials, schemas, examples, and pilot templates.
+> Current release note: the authoritative v2.0 methodological publication is maintained on Zenodo under DOI `10.5281/zenodo.22916404`. This repository hosts the reproducible public protocol, schemas, figures, examples, and pilot materials used for independent testing and review.
 
 ## Core idea
 
@@ -66,10 +72,19 @@ An initial 20-prompt demonstration run is available in [`pilot/pilot_results_v0_
 
 ## Public documents
 
-- [`docs/TUDOK_operator_v0_4_HU.md`](docs/TUDOK_operator_v0_4_HU.md) – Hungarian public pre-validation draft
-- [`docs/TUDOK_operator_v0_4_EN.md`](docs/TUDOK_operator_v0_4_EN.md) – English public pre-validation draft
-- [`docs/appendices_v0_4_HU.md`](docs/appendices_v0_4_HU.md) – Hungarian appendix package index
-- [`docs/appendices_v0_4_EN.md`](docs/appendices_v0_4_EN.md) – English appendix package index
+### Current v2.0 references
+
+- [`docs/TUDOK_operator_v2_0_EN.md`](docs/TUDOK_operator_v2_0_EN.md) – English current methodological repository reference
+- [`docs/TUDOK_operator_v2_0_HU.md`](docs/TUDOK_operator_v2_0_HU.md) – Hungarian current methodological repository reference
+- [`docs/appendices_v2_0_EN.md`](docs/appendices_v2_0_EN.md) – English current appendix/package map
+- [`docs/appendices_v2_0_HU.md`](docs/appendices_v2_0_HU.md) – Hungarian current appendix/package map
+
+### Legacy v0.4 references retained for provenance
+
+- [`docs/TUDOK_operator_v0_4_HU.md`](docs/TUDOK_operator_v0_4_HU.md) – historical Hungarian pre-validation draft
+- [`docs/TUDOK_operator_v0_4_EN.md`](docs/TUDOK_operator_v0_4_EN.md) – historical English pre-validation draft
+- [`docs/appendices_v0_4_HU.md`](docs/appendices_v0_4_HU.md) – historical Hungarian appendix index
+- [`docs/appendices_v0_4_EN.md`](docs/appendices_v0_4_EN.md) – historical English appendix index
 - [`docs/validation_call_HU.md`](docs/validation_call_HU.md) – Hungarian open validation call
 - [`docs/validation_call_EN.md`](docs/validation_call_EN.md) – English open validation call
 
@@ -93,6 +108,10 @@ tudok-operator/
 ├── LICENSE-DOCUMENTATION
 ├── NOTICE
 ├── docs/
+│   ├── TUDOK_operator_v2_0_EN.md
+│   ├── TUDOK_operator_v2_0_HU.md
+│   ├── appendices_v2_0_EN.md
+│   ├── appendices_v2_0_HU.md
 │   ├── TUDOK_operator_v0_4_HU.md
 │   ├── TUDOK_operator_v0_4_EN.md
 │   ├── appendices_v0_4_HU.md
@@ -168,4 +187,4 @@ Please cite the primary methodological paper and this repository when using the 
 
 Recommended citation:
 
-> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.21320434. GitHub: https://github.com/grm808-cos/tudok-operator
+> Sípos, Lóránt. *The TUDOK Operator: A Model-Agnostic Calibration Measure for Assessing Truth-Fidelity and Reality-Alignment in AI Outputs for Decision-Support Contexts.* 2026. DOI: 10.5281/zenodo.22916404. GitHub: https://github.com/grm808-cos/tudok-operator
