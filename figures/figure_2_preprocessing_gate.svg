@@ -1,39 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="740" viewBox="0 0 1000 740" role="img" aria-labelledby="title desc">
-  <title id="title">TUDOK as a truth-priority pre-processing gate</title>
-  <desc id="desc">A flow diagram showing input, truth-priority pre-processing gate, gate decision, AI processing, output, and TUDOK output-level calibration.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L6,3 z" fill="#333333" />
-    </marker>
-    <style>
-      .box { fill:#f7f7f7; stroke:#333333; stroke-width:2; rx:14; }
-      .gate { fill:#eef5ff; stroke:#1f4e79; stroke-width:2.5; rx:14; }
-      .text { font-family:Arial, sans-serif; font-size:22px; fill:#111111; text-anchor:middle; }
-      .small { font-family:Arial, sans-serif; font-size:18px; fill:#222222; text-anchor:middle; }
-      .line { stroke:#333333; stroke-width:2.5; marker-end:url(#arrow); }
-    </style>
-  </defs>
-  <text x="500" y="45" class="text" font-weight="700">Figure 2. TUDOK as a Truth-Priority Pre-Processing Gate</text>
-  <rect x="270" y="75" width="460" height="62" class="box" />
-  <text x="500" y="113" class="text">User input / document / question</text>
-  <line x1="500" y1="137" x2="500" y2="178" class="line" />
-  <rect x="190" y="178" width="620" height="170" class="gate" />
-  <text x="500" y="213" class="text" font-weight="700">Truth-priority pre-processing gate</text>
-  <text x="500" y="250" class="small">claim detection · source status · certainty level</text>
-  <text x="500" y="278" class="small">domain risk · normative sensitivity</text>
-  <text x="500" y="316" class="small">status input before generation</text>
-  <line x1="500" y1="348" x2="500" y2="390" class="line" />
-  <rect x="225" y="390" width="550" height="76" class="box" />
-  <text x="500" y="420" class="text">Gate decision</text>
-  <text x="500" y="448" class="small">continue · clarify · request source · human review</text>
-  <line x1="500" y1="466" x2="500" y2="510" class="line" />
-  <rect x="330" y="510" width="340" height="62" class="box" />
-  <text x="500" y="548" class="text">AI processing</text>
-  <line x1="500" y1="572" x2="500" y2="613" class="line" />
-  <rect x="360" y="613" width="280" height="55" class="box" />
-  <text x="500" y="648" class="text">Output</text>
-  <line x1="640" y1="640" x2="805" y2="640" class="line" />
-  <rect x="805" y="608" width="170" height="64" class="gate" />
-  <text x="890" y="634" class="small">TUDOK</text>
-  <text x="890" y="657" class="small">output check</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">TUDOK as a Preliminary Truth-Fidelity and Reality-Alignment Gate</title>
+<desc id="desc">Companion diagram showing input components, a preliminary TUDOK gate, AI processing, verification and routing, and output.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#143d7a"/></marker>
+<style>.h{font:700 29px Arial;fill:#10366f}.s{font:18px Arial;fill:#17345f}.b{fill:#f8fbff;stroke:#3565a8;stroke-width:2}.c{fill:#edf4ff;stroke:#143d7a;stroke-width:3}.l{stroke:#143d7a;stroke-width:3;marker-end:url(#a)}</style></defs>
+<text x="600" y="48" text-anchor="middle" class="h">Figure 2. TUDOK as a Preliminary Truth-Fidelity and Reality-Alignment Gate</text>
+<rect x="35" y="120" width="205" height="170" rx="14" class="b"/><text x="138" y="155" text-anchor="middle" class="s" font-weight="700">Input components</text><text x="138" y="192" text-anchor="middle" class="s">data sources</text><text x="138" y="222" text-anchor="middle" class="s">preprocessing</text><text x="138" y="252" text-anchor="middle" class="s">basic validation</text>
+<line x1="240" y1="205" x2="285" y2="205" class="l"/>
+<rect x="295" y="90" width="300" height="230" rx="14" class="c"/><text x="445" y="130" text-anchor="middle" class="s" font-weight="700">Preliminary TUDOK gate</text><text x="445" y="168" text-anchor="middle" class="s">truth-fidelity / reality-alignment</text><text x="445" y="198" text-anchor="middle" class="s">source and context awareness</text><text x="445" y="228" text-anchor="middle" class="s">coherence pre-screening</text><text x="445" y="258" text-anchor="middle" class="s">uncertainty / distortion signals</text><text x="445" y="288" text-anchor="middle" class="s">review need</text>
+<line x1="595" y1="205" x2="640" y2="205" class="l"/>
+<rect x="650" y="110" width="210" height="190" rx="14" class="b"/><text x="755" y="148" text-anchor="middle" class="s" font-weight="700">AI core</text><text x="755" y="186" text-anchor="middle" class="s">representation</text><text x="755" y="216" text-anchor="middle" class="s">context / memory</text><text x="755" y="246" text-anchor="middle" class="s">generation</text>
+<line x1="860" y1="205" x2="905" y2="205" class="l"/>
+<rect x="915" y="105" width="240" height="200" rx="14" class="b"/><text x="1035" y="145" text-anchor="middle" class="s" font-weight="700">Verification &amp; routing</text><text x="1035" y="184" text-anchor="middle" class="s">flags and uncertainty</text><text x="1035" y="214" text-anchor="middle" class="s">accept / revise</text><text x="1035" y="244" text-anchor="middle" class="s">external check</text><text x="1035" y="274" text-anchor="middle" class="s">human review</text>
+<rect x="150" y="405" width="900" height="120" rx="16" class="b"/><text x="600" y="445" text-anchor="middle" class="s" font-weight="700">Feedback</text><text x="600" y="482" text-anchor="middle" class="s">data quality · source feedback · coherence/risk/error feedback · review outcomes</text>
+<rect x="105" y="585" width="990" height="75" rx="14" class="c"/><text x="600" y="615" text-anchor="middle" class="s">TUDOK is not a post hoc truth judgment or a binary permission filter.</text><text x="600" y="645" text-anchor="middle" class="s">It is a preliminary calibration and review-routing gate.</text>
 </svg>
